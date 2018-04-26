@@ -85,6 +85,9 @@ class DataProvider(object):
         """
         pass
 
+    def get_symbol(self, config, sybmbol_code):
+        pass
+
     def get_risk_free_interest(self, date, maturity):
         """
         Retrieve the risk free interest rate for financial modelling.

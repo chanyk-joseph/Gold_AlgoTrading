@@ -31,7 +31,7 @@ class Strategy(object):
         config: you may access to the market data provider by this object.
         timestamp: the time point you assume where the back-test state is.
 
-        returns: a list of strategy orders to be processed immediately or just
+        returns:  to be processed immediately or just
                  an empty array.
         """
         raise NotImplementedError

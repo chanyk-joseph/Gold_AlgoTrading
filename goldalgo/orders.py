@@ -16,14 +16,14 @@ class StrategyOrder(object):
     trading order generated from the process for strategy formation.
 
     soid: the unique identifier of a strategy order within a project
-    ref_soid: the reference soid, for example the order that close a previous
-              position would reference to the original entry order.
     timestamp: the time which this order is created.
     symbol: the instrument that we trade.
     action: buy or sell, use the global constant.
     qty: the number of contracts that we trade.
     endtime: specifies the time window for this order.
     must_be_filled: True / False, indicates the order must be 100% completed.
+    ref_soid: the reference soid, for example the order that close a previous
+              position would reference to the original entry order.
     """
 
     def __init__(self, soid, timestamp, symbol, action, qty, endtime, must_be_filled=False,

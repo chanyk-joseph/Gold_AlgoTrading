@@ -6,9 +6,10 @@ ONE_DAY = 14
 ONE_WEEK = 15
 ONE_MONTH = 16
 
+OPEN_BID = 'Open_Bid'
+OPEN_ASK = 'Open_Ask'
 LAST_BID = 'Last_Bid'
 LAST_ASK = 'Last_Ask'
-LAST_MID = 'Last_Mid'
 OPEN_PRICE = 'Open_Price'
 HIGH_PRICE = 'High_Price'
 LOW_PRICE = 'Low_Price'
@@ -48,3 +49,5 @@ class Symbol(object):
         """
         pass
 
+    def get_symbol_code(self):
+        pass
